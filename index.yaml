@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  test-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-08-10T03:46:17.465871655Z"
+    description: A Helm chart for Kubernetes
+    digest: 9e2cbf6fc217094d2bf632b7866f6824be5061857a0638469f71c2714ed1a5a2
+    name: test-app
+    type: application
+    urls:
+    - https://github.com/SunGenteel/hello-helm/gh-pages/helm/test-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-08-10T03:46:17.465294551Z"
