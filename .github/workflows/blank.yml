@@ -47,7 +47,7 @@ jobs:
           echo "n" | cp -pr ./temp/index.yaml ../dest/
           echo "y" | rm -rf ./temp/*
           git config user.name "helm"
-          git config user.email "your-email@example.com"
+          git config user.email "jiecaicn@gmail.com"
           git add .
           git commit -m "Updated from ref: $GITHUB_SHA"
           git push
@@ -57,7 +57,7 @@ jobs:
         working-directory: dest
         run: |
           git config user.name "helm"
-          git config user.email "your-email@example.com"
+          git config user.email "jiecaicn@gmail.com"
           git add $(git ls-files -o --exclude-standard)
           git add index.yaml
           git commit -m "Updated from ref: $GITHUB_SHA"
